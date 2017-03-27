@@ -47,3 +47,7 @@ Hello
 ```
 
 #### Conclusion
+
+ - With `go-bindata` you can simplify your deployment with only one binary file.
+ - `go-bindata` can give you a little faster templates reading.
+ - Note that if you use `ParseFiles` you have to change it to work with `Assert` function.
