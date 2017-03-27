@@ -4,7 +4,7 @@
 
 #### html/template
 
-[html/template](https://github.com/arschles/go-bindata-html-template/blob/master/godoc.org/html/template)'s functions `Parse`, `ParseFiles` works only with files on the filesystem, so we need to implement a port to work with both approaches: files or go-bindata. Files:
+[html/template](https://golang.org/pkg/html/template/)'s functions `Parse`, `ParseFiles` works only with files on the filesystem, so we need to implement a port to work with both approaches: files or go-bindata. Files:
 
 ```
 go build && ./go-bindata-tpl
